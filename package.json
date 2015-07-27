@@ -1,0 +1,29 @@
+{
+  "name": "traktor-dpro-adapter-app",
+  "version": "0.1.0",
+  "author": "Philipp Burgmer",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pburgmer/traktor-dpro-adapter-app.git"
+  },
+  "scripts": {
+    "dev": "electron ./app",
+    "clean": "gulp clean",
+    "clean:osx": "gulp clean:osx",
+    "clean:win": "gulp clean:win",
+    "build": "gulp build",
+    "build:osx": "gulp build:osx",
+    "build:win": "gulp build:win",
+    "pack": "gulp pack",
+    "pack:osx": "gulp pack:osx",
+    "pack:win": "gulp pack:win"
+  },
+  "devDependencies": {
+    "electron-builder": "2.0.0",
+    "electron-packager": "5.0.1",
+    "electron-prebuilt": "0.30.0",
+    "gulp": "3.9.0",
+    "del": "1.2.0"
+  }
+}

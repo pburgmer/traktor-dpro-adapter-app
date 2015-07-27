@@ -1,0 +1,8 @@
+{
+  "name": "traktor-dpro-adapter",
+  "version": "0.1.0",
+  "dependencies": {
+    "midi": "0.9.3"
+  },
+  "main": "main.js"
+}
